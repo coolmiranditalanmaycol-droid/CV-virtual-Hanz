@@ -1,0 +1,27 @@
+
+/* ==========================================
+   COLORES UNIVERSALES DEL CV VIRTUAL
+   Modifica aquí los colores de toda la web.
+   ========================================== */
+
+:root {
+  --color-fondo: #0b0b0d;
+  --color-superficie: #18181b;
+  --color-tarjeta: #242428;
+  --color-tarjeta-suave: #2e2e33;
+  --color-borde: #39393f;
+
+  --color-texto: #f5f5f6;
+  --color-texto-secundario: #a9a9b1;
+
+  --color-activo: #f5f5f6;
+  --color-texto-activo: #141417;
+  --color-transparente: transparent;
+
+  /* Medidas generales */
+
+  --sombra-tarjeta: 0 12px 36px rgba(0,0,0,.18);
+  --ancho-contenido: 1120px;
+  --radio-tarjeta: 20px;
+  --radio-boton: 12px;
+}

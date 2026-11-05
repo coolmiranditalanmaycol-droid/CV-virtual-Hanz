@@ -1,0 +1,56 @@
+
+/* TARJETAS DE PROYECTOS */
+
+.project-card {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  padding: 17px;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-tarjeta);
+  background: var(--color-tarjeta);
+}
+
+/* Imagen */
+
+.project-card__imagen {
+  display: grid;
+  place-items: center;
+  height: 165px;
+  overflow: hidden;
+  background: var(--color-tarjeta-suave);
+  border-radius: var(--radio-boton);
+}
+
+.project-card__imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Información */
+
+.project-card h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.project-card p {
+  font-size: 13px;
+  margin: 0;
+  color: var(--color-texto-secundario);
+}
+
+/* Tecnologías y acciones */
+
+.project-card__tecnologias,
+.project-card__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.project-card__acciones {
+  padding-top: 10px;
+  border-top: 1px solid var(--color-borde);
+}

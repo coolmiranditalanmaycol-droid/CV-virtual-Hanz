@@ -1,0 +1,49 @@
+
+/* TARJETAS DE TECNOLOGÍAS */
+
+.technology-card {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 20px;
+  background: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-tarjeta);
+}
+
+/* Icono */
+
+.technology-card__icono {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  background: var(--color-tarjeta-suave);
+  border-radius: var(--radio-boton);
+}
+
+/* Nombre y descripción */
+
+.technology-card h3 {
+  margin: 6px 0 0;
+  font-size: 16px;
+}
+
+.technology-card p {
+  margin: 0;
+  color: var(--color-texto-secundario);
+  font-size: 12px;
+}
+
+/* Etiqueta de nivel */
+
+.technology-card__nivel {
+  display: inline-block;
+  width: fit-content;
+  margin-top: auto;
+  padding: 5px 9px;
+  border: 1px solid var(--color-borde);
+  border-radius: 999px;
+  background: var(--color-superficie);
+  font-size: 12px;
+}

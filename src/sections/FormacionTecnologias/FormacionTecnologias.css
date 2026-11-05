@@ -1,0 +1,36 @@
+
+/* FORMACIÓN Y CURSOS */
+
+.formacion .panel h3 {
+  margin: 12px 0;
+}
+
+.formacion .panel h3 svg,
+.formacion h3 svg {
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.formacion .panel p,
+.formacion .panel li {
+  color: var(--color-texto-secundario);
+  font-size: 13px;
+}
+
+.formacion .panel ul {
+  margin: 6px 0 0;
+  padding-left: 20px;
+}
+
+/* Filtros de tecnologías */
+
+.formacion__filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 13px;
+}
+
+.formacion h3 {
+  font-size: 18px;
+}

@@ -1,0 +1,7 @@
+
+/* SECCIÓN EXPERIENCIA */
+
+.experiencia__lista {
+  display: grid;
+  gap: 15px;
+}

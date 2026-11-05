@@ -1,0 +1,81 @@
+
+
+/* GALERÍA SIN CAPTURAS */
+
+.galeria-vacia {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  padding: 55px 15px;
+  border: 1px dashed var(--color-borde);
+  border-radius: var(--radio-tarjeta);
+  background: var(--color-tarjeta);
+  text-align: center;
+}
+
+.galeria-vacia p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--color-texto-secundario);
+}
+
+/* GALERÍA CON CAPTURAS */
+
+.carousel-cv {
+  display: grid;
+  gap: 13px;
+}
+
+.carousel-cv__principal {
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--radio-tarjeta);
+  background: var(--color-tarjeta);
+}
+
+.carousel-cv__principal img {
+  display: block;
+  width: 100%;
+  max-height: 470px;
+  object-fit: contain;
+}
+
+.carousel-cv__principal figcaption {
+  padding: 10px 15px;
+  font-size: 12px;
+  color: var(--color-texto-secundario);
+}
+
+/* Botones del carrusel */
+
+.carousel-cv__acciones {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Miniaturas */
+
+.carousel-cv__miniaturas {
+  display: flex;
+  gap: 9px;
+  overflow-x: auto;
+}
+
+.carousel-cv__miniatura {
+  padding: 3px;
+  border: 2px solid var(--color-borde);
+  border-radius: var(--radio-boton);
+  background: var(--color-tarjeta);
+}
+
+.carousel-cv__miniatura--activa {
+  border-color: var(--color-activo);
+}
+
+.carousel-cv__miniatura img {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 7px;
+  display: block;
+}

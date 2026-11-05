@@ -1,0 +1,29 @@
+
+/* BOTÓN UNIVERSAL PARA DESCARGAR EL CV */
+
+.descargar-cv {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 9px 13px;
+  min-height: 39px;
+  border: 1px solid var(--color-activo);
+  border-radius: var(--radio-boton);
+  background: var(--color-activo);
+  color: var(--color-texto-activo);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.descargar-cv:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
+
+@media (max-width: 450px) {
+  .descargar-cv {
+    padding: 8px;
+    font-size: 11px;
+  }
+}

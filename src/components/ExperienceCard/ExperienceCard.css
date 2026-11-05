@@ -1,0 +1,89 @@
+
+/* TARJETA DESPLEGABLE DE EXPERIENCIA */
+
+.experience-card {
+  display: flex;
+  gap: 16px;
+  padding: 22px;
+  background: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-tarjeta);
+}
+
+/* Icono */
+
+.experience-card__icono {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  background: var(--color-tarjeta-suave);
+  border-radius: var(--radio-boton);
+}
+
+/* Información */
+
+.experience-card__contenido {
+  flex: 1;
+  min-width: 0;
+}
+
+.experience-card h3 {
+  margin: 12px 0 4px;
+  font-size: 19px;
+}
+
+.experience-card strong {
+  font-size: 13px;
+}
+
+.experience-card p {
+  color: var(--color-texto-secundario);
+  font-size: 13px;
+}
+
+/* Botón para mostrar detalles */
+
+.experience-card__alternar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px 0 0;
+  border: 0;
+  border-top: 1px solid var(--color-borde);
+  background: var(--color-transparente);
+  color: var(--color-texto);
+  font-size: 13px;
+}
+
+/* Lista de actividades */
+
+.experience-card__lista {
+  list-style: none;
+  margin: 15px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.experience-card__lista li {
+  display: flex;
+  gap: 9px;
+  font-size: 13px;
+  color: var(--color-texto-secundario);
+}
+
+@media (max-width: 500px) {
+  .experience-card {
+    padding: 16px;
+    gap: 10px;
+  }
+
+  .experience-card__icono {
+    width: 39px;
+    height: 39px;
+  }
+}

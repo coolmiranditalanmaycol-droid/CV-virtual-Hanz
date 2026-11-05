@@ -1,0 +1,29 @@
+/* ==========================================
+   PERFIL: INFORMACIÓN Y ÁREAS DE INTERÉS
+   ========================================== */
+
+.perfil .panel h3 {
+  margin: 15px 0 7px;
+  font-size: 18px;
+  color: var(--color-texto);
+}
+
+.perfil .panel p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+/* Datos generales del perfil */
+.perfil__dato {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  color: var(--color-texto-secundario);
+  font-size: 13px;
+}
+
+.perfil__dato svg {
+  flex-shrink: 0;
+}

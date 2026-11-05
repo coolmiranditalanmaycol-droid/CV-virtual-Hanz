@@ -1,0 +1,19 @@
+
+/* SECCIÓN GALERÍA */
+
+.galeria__selector,
+.galeria__tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+/* Descripción del proyecto */
+
+.galeria .panel h3 {
+  margin: 0 0 5px;
+}
+
+.galeria .panel p {
+  font-size: 13px;
+}

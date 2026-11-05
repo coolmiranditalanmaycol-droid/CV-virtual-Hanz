@@ -1,0 +1,38 @@
+
+/* TARJETAS DE ÁREAS DE INTERÉS */
+
+.profile-card {
+  background: var(--color-tarjeta);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-tarjeta);
+  padding: 22px;
+  transition: transform .2s;
+}
+
+.profile-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Icono */
+
+.profile-card__icono {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: var(--radio-boton);
+  background: var(--color-superficie);
+}
+
+/* Información */
+
+.profile-card h3 {
+  margin: 16px 0 6px;
+  font-size: 16px;
+}
+
+.profile-card p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--color-texto-secundario);
+}

@@ -1,0 +1,14 @@
+/* ==========================================
+   TABS: MENÚ HORIZONTAL DEL CV
+   ========================================== */
+.section-tabs { margin-top: 26px; }
+.section-tabs__encabezado { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; color: var(--color-texto-secundario); font-size: 11px; font-weight: 700; letter-spacing: .09em; }
+.section-tabs__encabezado small { font-size: 11px; font-weight: 400; letter-spacing: normal; }
+.section-tabs__lista { display: flex; gap: 9px; overflow-x: auto; padding: 2px 0 10px; scrollbar-width: thin; scrollbar-color: var(--color-borde) var(--color-fondo); }
+.section-tabs__boton { display: inline-flex; flex: 1 0 auto; align-items: center; justify-content: center; gap: 8px; min-height: 54px; padding: 12px 15px; border: 1px solid var(--color-borde); border-radius: var(--radio-boton); background: var(--color-superficie); color: var(--color-texto); font-size: 12px; font-weight: 600; white-space: nowrap; transition: background-color .2s, color .2s; }
+.section-tabs__boton:hover:not(.section-tabs__boton--activo) { background: var(--color-tarjeta-suave); }
+.section-tabs__boton--activo { background: var(--color-activo); border-color: var(--color-activo); color: var(--color-texto-activo); }
+@media (max-width: 650px) {
+  .section-tabs__boton { flex: 0 0 auto; }
+  .section-tabs__encabezado small { display: none; }
+}
